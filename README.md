@@ -4,9 +4,7 @@ cd penta-white-box-cartoonization
 wsl
 python -m venv venv-wsl
 source venv-wsl/bin/activate
-python -m pip install -U pip setuptools
-python -m pip install -r requirements.txt
-python setup.py
+sh setup.sh
 python run.py
 
 # Original
