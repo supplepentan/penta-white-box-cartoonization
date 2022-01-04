@@ -5,10 +5,7 @@ wsl
 python -m venv venv-wsl
 source venv-wsl/bin/activate
 python -m pip install -U pip setuptools
-python -m pip install nvidia-pyindex
-python -m pip install nvidia-tensorflow[horovod]
-python -m pip install opencv-python
-python -m pip install tqdm
+python -m pip install -r requirements.txt
 python setup.py
 python run.py
 

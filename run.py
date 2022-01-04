@@ -19,7 +19,7 @@ def video_2_images(video_file= './test_video/test1.mp4',   # ビデオの指定
     # Initial setting
     i = 0
     interval = 1
-    length = 3000  # 最大フレーム数
+    length = 300000  # 最大フレーム数
     
     cap = cv2.VideoCapture(video_file)
     while(cap.isOpened()):
