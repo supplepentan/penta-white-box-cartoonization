@@ -1,0 +1,8 @@
+venv-wsl/
+saved_models/
+test_images/
+cartoonized_images/
+__pycache__/
+test_video/
+train_code/
+test_code/
