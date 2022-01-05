@@ -1,4 +1,6 @@
 #!/bin/bash
 mkdir "test_video"
 pip install -U pip setuptools
-python3 -m pip install -r requirements.txt
+pip install -r requirements.txt
+pip install nvidia-pyindex
+pip install nvidia-tensorflow[horovod]
